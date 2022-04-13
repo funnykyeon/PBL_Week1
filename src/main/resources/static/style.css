@@ -1,0 +1,152 @@
+
+/*.post-box{*/
+
+/*    display : block;*/
+/*    width : 30vw;*/
+/*    margin : 10px;*/
+/*    float: left;*/
+/*}*/
+/*.search-input-box{*/
+/*    margin: 100px;*/
+/*    border : 1px solid black;*/
+/*}*/
+
+.center{
+    width: 538px;
+    margin: 10px auto;
+}
+/*.comment{*/
+/*    display: block;*/
+/*    margin: 10px;*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+/*border : 1px solid black;*/
+/*}*/
+/*.comment-popup{*/
+/*    display: block;*/
+/*    margin: 10px;*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+/*    border : 1px solid black;*/
+/*}*/
+/*.one-comment{*/
+/*    display: block;*/
+/*    margin: 10px;*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+/*    border : 1px solid black;*/
+/*}*/
+/*.popup{*/
+/*    display: block;*/
+/*    margin: 10px;*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+/*    border : 1px solid black;*/
+/*}*/
+/*.modify1{*/
+/*    display: block;*/
+/*    margin: 10px;*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+
+/*}*/
+.register{
+    width: 538px;
+    margin: 10px auto;
+}
+
+
+
+
+/*댓글/게시물 수정*/
+/*.modify{*/
+/*    display: block;*/
+/*    margin: 10px;*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+
+/*!*}*!*/
+/*.comment-box{*/
+/*    display: block;*/
+/*    margin: 250px;*/
+/*    width: 30vw;*/
+/*    height: 20vh;*/
+/*    !*border : 1px solid black;*!*/
+/*}*/
+.contents{
+    width: 400px;
+    height: 50px;
+    margin: 3px;
+
+}
+.writer{
+    width: 400px;
+    margin: 3px;
+}
+.title{
+    width: 400px;
+    margin: 3px;
+}
+/*.title, .writer{*/
+/*    display:block;*/
+/*    margin: 10px;*/
+/*    width : 30vw;*/
+
+/*}*/
+/*.one-post{*/
+/*    width: 538px;*/
+/*    margin: 10px auto;*/
+/*}*/
+
+.background-header {
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    width: 500%;
+    height: 200px;
+    background-color: #339af0;
+}
+
+.background-body {
+    position: static;
+    z-index: -1;
+    top: 200px;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.header h2 {
+    /*font-family: 'Noto Sans KR', sans-serif;*/
+    height: 33px;
+    font-size: 42px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.79;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header p {
+    margin: 40px auto;
+    width: 217px;
+    height: 48px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -1.12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
