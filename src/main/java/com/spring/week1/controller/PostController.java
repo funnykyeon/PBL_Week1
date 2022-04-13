@@ -1,10 +1,10 @@
-package com.spring.homework.controller;
+package com.spring.week1.controller;
 
-import com.spring.homework.model.CommentRepository;
-import com.spring.homework.model.Post;
-import com.spring.homework.model.PostDto;
-import com.spring.homework.model.PostRepository;
-import com.spring.homework.service.PostService;
+import com.spring.week1.model.CommentRepository;
+import com.spring.week1.model.Post;
+import com.spring.week1.model.PostDto;
+import com.spring.week1.model.PostRepository;
+import com.spring.week1.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

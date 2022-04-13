@@ -1,4 +1,4 @@
-package com.spring.homework.model;
+package com.spring.week1.model;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

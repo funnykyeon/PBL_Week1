@@ -1,8 +1,8 @@
-package com.spring.homework.service;
+package com.spring.week1.service;
 
-import com.spring.homework.model.Comment;
-import com.spring.homework.model.CommentDto;
-import com.spring.homework.model.CommentRepository;
+import com.spring.week1.model.Comment;
+import com.spring.week1.model.CommentDto;
+import com.spring.week1.model.CommentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

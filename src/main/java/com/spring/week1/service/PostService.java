@@ -1,8 +1,8 @@
-package com.spring.homework.service;
+package com.spring.week1.service;
 
-import com.spring.homework.model.Post;
-import com.spring.homework.model.PostDto;
-import com.spring.homework.model.PostRepository;
+import com.spring.week1.model.Post;
+import com.spring.week1.model.PostDto;
+import com.spring.week1.model.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

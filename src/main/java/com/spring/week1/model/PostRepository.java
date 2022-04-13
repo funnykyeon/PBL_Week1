@@ -1,4 +1,4 @@
-package com.spring.homework.model;
+package com.spring.week1.model;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,11 +1,10 @@
-package com.spring.homework.controller;
+package com.spring.week1.controller;
 
-import com.spring.homework.model.*;
-import com.spring.homework.service.CommentService;
+import com.spring.week1.model.*;
+import com.spring.week1.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RequiredArgsConstructor

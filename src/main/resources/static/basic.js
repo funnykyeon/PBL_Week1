@@ -1,9 +1,3 @@
-$(document).ready(function () {
-    hide();
-})
-function hide() {
-    $(`#post-box`).hide();
-}
 //게시물 내용/수정 내용 공백 검증
 function isValidContents(contents) {
     if (contents == '') {
@@ -16,20 +10,6 @@ function isValidContents(contents) {
     }
     return true;
 }
-// //댓글 내용/수정 내용 공백 검증
-// function isValidContents(contents) {
-//     if (contents == '') {
-//         alert('내용을 입력해주세요');
-//         return false;
-//     }
-//     if (contents.trim().length > 140) {
-//         alert('공백 포함 140자 이하로 입력해주세요');
-//         return false;
-//     }
-//     return true;
-// }
-
-
 
 $(document).ready(function () {
     getPosts();

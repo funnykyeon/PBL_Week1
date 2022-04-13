@@ -1,78 +1,12 @@
 
-/*.post-box{*/
-
-/*    display : block;*/
-/*    width : 30vw;*/
-/*    margin : 10px;*/
-/*    float: left;*/
-/*}*/
-/*.search-input-box{*/
-/*    margin: 100px;*/
-/*    border : 1px solid black;*/
-/*}*/
-
 .center{
     width: 538px;
     margin: 10px auto;
 }
-/*.comment{*/
-/*    display: block;*/
-/*    margin: 10px;*/
-/*    width: 30vw;*/
-/*    height: 20vh;*/
-/*border : 1px solid black;*/
-/*}*/
-/*.comment-popup{*/
-/*    display: block;*/
-/*    margin: 10px;*/
-/*    width: 30vw;*/
-/*    height: 20vh;*/
-/*    border : 1px solid black;*/
-/*}*/
-/*.one-comment{*/
-/*    display: block;*/
-/*    margin: 10px;*/
-/*    width: 30vw;*/
-/*    height: 20vh;*/
-/*    border : 1px solid black;*/
-/*}*/
-/*.popup{*/
-/*    display: block;*/
-/*    margin: 10px;*/
-/*    width: 30vw;*/
-/*    height: 20vh;*/
-/*    border : 1px solid black;*/
-/*}*/
-/*.modify1{*/
-/*    display: block;*/
-/*    margin: 10px;*/
-/*    width: 30vw;*/
-/*    height: 20vh;*/
-
-/*}*/
 .register{
     width: 538px;
     margin: 10px auto;
 }
-
-
-
-
-/*댓글/게시물 수정*/
-/*.modify{*/
-/*    display: block;*/
-/*    margin: 10px;*/
-/*    width: 30vw;*/
-/*    height: 20vh;*/
-
-/*!*}*!*/
-/*.comment-box{*/
-/*    display: block;*/
-/*    margin: 250px;*/
-/*    width: 30vw;*/
-/*    height: 20vh;*/
-/*    !*border : 1px solid black;*!*/
-/*}*/
 .contents{
     width: 400px;
     height: 50px;
@@ -87,17 +21,6 @@
     width: 400px;
     margin: 3px;
 }
-/*.title, .writer{*/
-/*    display:block;*/
-/*    margin: 10px;*/
-/*    width : 30vw;*/
-
-/*}*/
-/*.one-post{*/
-/*    width: 538px;*/
-/*    margin: 10px auto;*/
-/*}*/
-
 .background-header {
     position: fixed;
     z-index: -1;
