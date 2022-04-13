@@ -63,36 +63,10 @@ function createPost() {
     })
 }
 
-//게시글 검색 조회
-function searchPost() {
-    let query = $('.search-input').val();
-    $.ajax({
-        type: 'GET',
-        url: `/api/posts/search/${query}`,
-        contentType: 'application/json',
-        success: function (response) {
-            $('.search-result-box').empty();
-            for (let i = 0; i < response.length; i++) {
-                let post = response[i]
-                let tempHtml = `<div class="one-post" id="${post.id}">
-                    <div class="one-post-content">
-                        <div > ${post.title} </div>
-                        <div>${post.contents}</div>
-                        <div>${post.writer}</div>
-                    </div>
-                <button onclick="popupModify(${post.id})">수정</button>
-                <button onclick="deletePost(${post.id})">삭제</button>
-                <button onclick="getComments(${post.id})">댓글 보기</button>
-                <button onclick="popupCommentCreate(${post.id})">댓글 쓰기</button>
-            </div>`;
-                $('.search-result-box').append(tempHtml);
-            }
-        }
-    })
-}
 
 //게시글 수정 팝업
 function popupModify(postid) {
+    $('.modify').empty();
     let temp_html = `<div class="modify1">
         <input id="modify-title" className="title" placeholder="제목"></input>
         <input id="modify-contents" className="contents" placeholder="작성 내용"></input>
@@ -166,6 +140,7 @@ function getComments(postid) {
 //댓글 추가 팝업
 function popupCommentCreate(postid) {
     console.log(postid)
+    $('.comment-box').empty();
     let temp_html = `
         <div class="-popup">
             <input id="create-comment-contents" placeholder="작성 내용"/>
@@ -201,6 +176,7 @@ function registerComment(postid) {
 
 //댓글 수정 팝업
 function popupModifyComment(postid, commentid) {
+    $('.comment-box').empty();
     let temp_html = `<div class="one-comment" id="${commentid}">
         <input id="modify-comment-contents" class="contents" placeholder="작성 내용"></input>
         <input id="modify-comment-writer" class="writer" placeholder="글쓴이"></input>
